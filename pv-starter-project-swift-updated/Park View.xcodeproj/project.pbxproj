@@ -21,6 +21,20 @@
 		52D644141A0FF9E500CCA056 /* MapOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D644131A0FF9E500CCA056 /* MapOptionsViewController.swift */; };
 		52D644161A0FFB7400CCA056 /* ParkMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D644151A0FFB7400CCA056 /* ParkMapViewController.swift */; };
 		52D644181A0FFD2600CCA056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D644171A0FFD2600CCA056 /* AppDelegate.swift */; };
+		A136DCAB1CE1D58D00E2A65D /* AttractionAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136DCAA1CE1D58D00E2A65D /* AttractionAnnotation.swift */; };
+		A136DCAD1CE1D5E900E2A65D /* AttractionAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136DCAC1CE1D5E900E2A65D /* AttractionAnnotationView.swift */; };
+		A136DCC61CE1D6C700E2A65D /* firstaid.png in Resources */ = {isa = PBXBuildFile; fileRef = A136DCBE1CE1D6C700E2A65D /* firstaid.png */; };
+		A136DCC71CE1D6C700E2A65D /* firstaid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A136DCBF1CE1D6C700E2A65D /* firstaid@2x.png */; };
+		A136DCC81CE1D6C700E2A65D /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = A136DCC01CE1D6C700E2A65D /* food.png */; };
+		A136DCC91CE1D6C700E2A65D /* food@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A136DCC11CE1D6C700E2A65D /* food@2x.png */; };
+		A136DCCA1CE1D6C700E2A65D /* ride.png in Resources */ = {isa = PBXBuildFile; fileRef = A136DCC21CE1D6C700E2A65D /* ride.png */; };
+		A136DCCB1CE1D6C700E2A65D /* ride@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A136DCC31CE1D6C700E2A65D /* ride@2x.png */; };
+		A136DCCC1CE1D6C700E2A65D /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = A136DCC41CE1D6C700E2A65D /* star.png */; };
+		A136DCCD1CE1D6C700E2A65D /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A136DCC51CE1D6C700E2A65D /* star@2x.png */; };
+		A136DCD11CE1DCD900E2A65D /* BatmanLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A136DCCE1CE1DCD900E2A65D /* BatmanLocations.plist */; };
+		A136DCD21CE1DCD900E2A65D /* TazLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A136DCCF1CE1DCD900E2A65D /* TazLocations.plist */; };
+		A136DCD31CE1DCD900E2A65D /* TweetyBirdLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A136DCD01CE1DCD900E2A65D /* TweetyBirdLocations.plist */; };
+		A136DCD51CE1DCE700E2A65D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136DCD41CE1DCE700E2A65D /* Character.swift */; };
 		A1EC573A1CD8A301001103D8 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EC57391CD8A301001103D8 /* Park.swift */; };
 		A1EC57421CD8A49F001103D8 /* annotation-images.zip in Resources */ = {isa = PBXBuildFile; fileRef = A1EC573B1CD8A49F001103D8 /* annotation-images.zip */; };
 		A1EC57431CD8A49F001103D8 /* character-locations.zip in Resources */ = {isa = PBXBuildFile; fileRef = A1EC573C1CD8A49F001103D8 /* character-locations.zip */; };
@@ -51,6 +65,20 @@
 		52D644131A0FF9E500CCA056 /* MapOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapOptionsViewController.swift; sourceTree = "<group>"; };
 		52D644151A0FFB7400CCA056 /* ParkMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkMapViewController.swift; sourceTree = "<group>"; };
 		52D644171A0FFD2600CCA056 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A136DCAA1CE1D58D00E2A65D /* AttractionAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionAnnotation.swift; sourceTree = "<group>"; };
+		A136DCAC1CE1D5E900E2A65D /* AttractionAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionAnnotationView.swift; sourceTree = "<group>"; };
+		A136DCBE1CE1D6C700E2A65D /* firstaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstaid.png; sourceTree = "<group>"; };
+		A136DCBF1CE1D6C700E2A65D /* firstaid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstaid@2x.png"; sourceTree = "<group>"; };
+		A136DCC01CE1D6C700E2A65D /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		A136DCC11CE1D6C700E2A65D /* food@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food@2x.png"; sourceTree = "<group>"; };
+		A136DCC21CE1D6C700E2A65D /* ride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ride.png; sourceTree = "<group>"; };
+		A136DCC31CE1D6C700E2A65D /* ride@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ride@2x.png"; sourceTree = "<group>"; };
+		A136DCC41CE1D6C700E2A65D /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		A136DCC51CE1D6C700E2A65D /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		A136DCCE1CE1DCD900E2A65D /* BatmanLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BatmanLocations.plist; sourceTree = "<group>"; };
+		A136DCCF1CE1DCD900E2A65D /* TazLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TazLocations.plist; sourceTree = "<group>"; };
+		A136DCD01CE1DCD900E2A65D /* TweetyBirdLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TweetyBirdLocations.plist; sourceTree = "<group>"; };
+		A136DCD41CE1DCE700E2A65D /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		A1EC57391CD8A301001103D8 /* Park.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
 		A1EC573B1CD8A49F001103D8 /* annotation-images.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "annotation-images.zip"; path = "PVParkViewSwiftResources/annotation-images.zip"; sourceTree = "<group>"; };
 		A1EC573C1CD8A49F001103D8 /* character-locations.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "character-locations.zip"; path = "PVParkViewSwiftResources/character-locations.zip"; sourceTree = "<group>"; };
@@ -82,6 +110,9 @@
 		076BF08D1680457B00ACF08A /* Park Information */ = {
 			isa = PBXGroup;
 			children = (
+				A136DCCE1CE1DCD900E2A65D /* BatmanLocations.plist */,
+				A136DCCF1CE1DCD900E2A65D /* TazLocations.plist */,
+				A136DCD01CE1DCD900E2A65D /* TweetyBirdLocations.plist */,
 				A1EC573B1CD8A49F001103D8 /* annotation-images.zip */,
 				A1EC573C1CD8A49F001103D8 /* character-locations.zip */,
 				A1EC573D1CD8A49F001103D8 /* EntranceToGoliathRoute.plist */,
@@ -96,6 +127,14 @@
 		076BF08F1680459100ACF08A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A136DCBE1CE1D6C700E2A65D /* firstaid.png */,
+				A136DCBF1CE1D6C700E2A65D /* firstaid@2x.png */,
+				A136DCC01CE1D6C700E2A65D /* food.png */,
+				A136DCC11CE1D6C700E2A65D /* food@2x.png */,
+				A136DCC21CE1D6C700E2A65D /* ride.png */,
+				A136DCC31CE1D6C700E2A65D /* ride@2x.png */,
+				A136DCC41CE1D6C700E2A65D /* star.png */,
+				A136DCC51CE1D6C700E2A65D /* star@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -104,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				A1EC57391CD8A301001103D8 /* Park.swift */,
+				A136DCD41CE1DCE700E2A65D /* Character.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -111,6 +151,8 @@
 		076BF091168045BF00ACF08A /* Annotations */ = {
 			isa = PBXGroup;
 			children = (
+				A136DCAA1CE1D58D00E2A65D /* AttractionAnnotation.swift */,
+				A136DCAC1CE1D5E900E2A65D /* AttractionAnnotationView.swift */,
 			);
 			name = Annotations;
 			sourceTree = "<group>";
@@ -247,19 +289,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A136DCC91CE1D6C700E2A65D /* food@2x.png in Resources */,
+				A136DCCC1CE1D6C700E2A65D /* star.png in Resources */,
+				A136DCD31CE1DCD900E2A65D /* TweetyBirdLocations.plist in Resources */,
 				A1EC57461CD8A49F001103D8 /* MagicMountainAttractions.plist in Resources */,
 				07866ABD165EE2B400D7BB3A /* InfoPlist.strings in Resources */,
 				A1EC57481CD8A49F001103D8 /* overlay_park@2x.png in Resources */,
+				A136DCD21CE1DCD900E2A65D /* TazLocations.plist in Resources */,
+				A136DCC81CE1D6C700E2A65D /* food.png in Resources */,
+				A136DCD11CE1DCD900E2A65D /* BatmanLocations.plist in Resources */,
 				07866AC5165EE2B400D7BB3A /* Default.png in Resources */,
 				07866AC7165EE2B400D7BB3A /* Default@2x.png in Resources */,
+				A136DCCB1CE1D6C700E2A65D /* ride@2x.png in Resources */,
+				A136DCCD1CE1D6C700E2A65D /* star@2x.png in Resources */,
+				A136DCC61CE1D6C700E2A65D /* firstaid.png in Resources */,
 				A1EC57441CD8A49F001103D8 /* EntranceToGoliathRoute.plist in Resources */,
 				A1EC57421CD8A49F001103D8 /* annotation-images.zip in Resources */,
 				A1EC57471CD8A49F001103D8 /* overlay_park.png in Resources */,
+				A136DCCA1CE1D6C700E2A65D /* ride.png in Resources */,
 				07866AC9165EE2B400D7BB3A /* Default-568h@2x.png in Resources */,
 				07866ACC165EE2B400D7BB3A /* MainStoryboard_iPhone.storyboard in Resources */,
 				A1EC57451CD8A49F001103D8 /* MagicMountain.plist in Resources */,
 				07866ACF165EE2B400D7BB3A /* MainStoryboard_iPad.storyboard in Resources */,
 				A1EC57431CD8A49F001103D8 /* character-locations.zip in Resources */,
+				A136DCC71CE1D6C700E2A65D /* firstaid@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +323,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A136DCAD1CE1D5E900E2A65D /* AttractionAnnotationView.swift in Sources */,
+				A136DCAB1CE1D58D00E2A65D /* AttractionAnnotation.swift in Sources */,
 				52D644161A0FFB7400CCA056 /* ParkMapViewController.swift in Sources */,
 				52D644181A0FFD2600CCA056 /* AppDelegate.swift in Sources */,
 				52D644141A0FF9E500CCA056 /* MapOptionsViewController.swift in Sources */,
 				A1EC574A1CD8A57C001103D8 /* ParkMapOverlay.swift in Sources */,
 				A1EC574C1CD8A5E0001103D8 /* ParkMapOverlayView.swift in Sources */,
+				A136DCD51CE1DCE700E2A65D /* Character.swift in Sources */,
 				A1EC573A1CD8A301001103D8 /* Park.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

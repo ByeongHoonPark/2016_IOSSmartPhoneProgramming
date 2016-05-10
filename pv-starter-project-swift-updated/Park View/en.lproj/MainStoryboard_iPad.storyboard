@@ -68,7 +68,7 @@
         <!--Map Options View Controller-->
         <scene sceneID="mw4-A1-fFY">
             <objects>
-                <viewController id="Hse-Ql-wju" customClass="PVMapOptionsViewController" sceneMemberID="viewController">
+                <viewController id="Hse-Ql-wju" customClass="MapOptionsViewController" customModule="Park_View" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q2F-oX-4oV"/>
                         <viewControllerLayoutGuide type="bottom" id="zA4-93-UoE"/>
