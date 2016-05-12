@@ -59,8 +59,8 @@ class ParkMapViewController: UIViewController {
             addRoute()
         case .MapBoundary:
             addBoundary()
-        case .MapCharacterLocation:
-            addCharacterLocation()
+        case .MapFoodRoad:
+            addFoodRoadPins()
         default:
             break
         }
@@ -123,6 +123,22 @@ class ParkMapViewController: UIViewController {
     
     func addAttractionPins() {
         let filePath = NSBundle.mainBundle().pathForResource("MagicMountainAttractions", ofType: "plist")
+        let attractions = NSArray(contentsOfFile: filePath!)
+        for attraction in attractions! {
+            let point = CGPointFromString(attraction["location"] as! String)
+            let coordinate = CLLocationCoordinate2DMake(CLLocationDegrees(point.x), CLLocationDegrees(point.y))
+            let title = attraction["name"] as! String
+            let typeRawValue = Int(attraction["type"] as! String)!
+            let type = AttractionType(rawValue: typeRawValue)!
+            let subtitle = attraction["subtitle"] as! String
+            let annotation = AttractionAnnotation(coordinate: coordinate, title: title, subtitle: subtitle, type: type)
+            mapView.addAnnotation(annotation)
+        }
+    }
+    
+    
+    func addFoodRoadPins() {
+        let filePath = NSBundle.mainBundle().pathForResource("foodRoadPoint", ofType: "plist")
         let attractions = NSArray(contentsOfFile: filePath!)
         for attraction in attractions! {
             let point = CGPointFromString(attraction["location"] as! String)

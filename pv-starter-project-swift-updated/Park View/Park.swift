@@ -44,7 +44,7 @@ class Park{
         
         let midPoint = CGPointFromString(properties!["midCoord"] as! String)
         midCoordinate = CLLocationCoordinate2DMake(CLLocationDegrees(midPoint.x), CLLocationDegrees(midPoint.y))
-        
+        //37.5652894,126.8494674
         let overlayTopLeftPoint = CGPointFromString(properties!["overlayTopLeftCoord"] as! String)
         overlayTopLeftCoordinate = CLLocationCoordinate2DMake(CLLocationDegrees(overlayTopLeftPoint.x),
                                                               CLLocationDegrees(overlayTopLeftPoint.y))

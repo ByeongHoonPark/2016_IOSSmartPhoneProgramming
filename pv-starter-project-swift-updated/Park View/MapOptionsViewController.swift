@@ -14,6 +14,7 @@ enum MapOptionsType: Int {
   case MapPins
   case MapCharacterLocation
   case MapRoute
+  case MapFoodRoad
 }
 
 class MapOptionsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -36,7 +37,7 @@ class MapOptionsViewController: UIViewController, UITableViewDelegate, UITableVi
   }
   
   func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return 5
+    return 6
   }
   
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -54,6 +55,8 @@ class MapOptionsViewController: UIViewController, UITableViewDelegate, UITableVi
       cell.textLabel!.text = "Character Location"
     case .MapRoute:
       cell.textLabel!.text = "Route"
+    case .MapFoodRoad:
+        cell.textLabel!.text = "식신로드 맛집 10선"
     }
     
     if selectedOptions.contains(mapOptionsType!) {

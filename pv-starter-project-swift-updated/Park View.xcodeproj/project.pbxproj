@@ -35,6 +35,7 @@
 		A136DCD21CE1DCD900E2A65D /* TazLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A136DCCF1CE1DCD900E2A65D /* TazLocations.plist */; };
 		A136DCD31CE1DCD900E2A65D /* TweetyBirdLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A136DCD01CE1DCD900E2A65D /* TweetyBirdLocations.plist */; };
 		A136DCD51CE1DCE700E2A65D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136DCD41CE1DCE700E2A65D /* Character.swift */; };
+		A136DCD71CE1E43F00E2A65D /* foodRoadPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = A136DCD61CE1E43F00E2A65D /* foodRoadPoint.plist */; };
 		A1EC573A1CD8A301001103D8 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EC57391CD8A301001103D8 /* Park.swift */; };
 		A1EC57421CD8A49F001103D8 /* annotation-images.zip in Resources */ = {isa = PBXBuildFile; fileRef = A1EC573B1CD8A49F001103D8 /* annotation-images.zip */; };
 		A1EC57431CD8A49F001103D8 /* character-locations.zip in Resources */ = {isa = PBXBuildFile; fileRef = A1EC573C1CD8A49F001103D8 /* character-locations.zip */; };
@@ -79,6 +80,7 @@
 		A136DCCF1CE1DCD900E2A65D /* TazLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TazLocations.plist; sourceTree = "<group>"; };
 		A136DCD01CE1DCD900E2A65D /* TweetyBirdLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TweetyBirdLocations.plist; sourceTree = "<group>"; };
 		A136DCD41CE1DCE700E2A65D /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		A136DCD61CE1E43F00E2A65D /* foodRoadPoint.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foodRoadPoint.plist; sourceTree = "<group>"; };
 		A1EC57391CD8A301001103D8 /* Park.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
 		A1EC573B1CD8A49F001103D8 /* annotation-images.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "annotation-images.zip"; path = "PVParkViewSwiftResources/annotation-images.zip"; sourceTree = "<group>"; };
 		A1EC573C1CD8A49F001103D8 /* character-locations.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "character-locations.zip"; path = "PVParkViewSwiftResources/character-locations.zip"; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		076BF08D1680457B00ACF08A /* Park Information */ = {
 			isa = PBXGroup;
 			children = (
+				A136DCD61CE1E43F00E2A65D /* foodRoadPoint.plist */,
 				A136DCCE1CE1DCD900E2A65D /* BatmanLocations.plist */,
 				A136DCCF1CE1DCD900E2A65D /* TazLocations.plist */,
 				A136DCD01CE1DCD900E2A65D /* TweetyBirdLocations.plist */,
@@ -308,6 +311,7 @@
 				A1EC57471CD8A49F001103D8 /* overlay_park.png in Resources */,
 				A136DCCA1CE1D6C700E2A65D /* ride.png in Resources */,
 				07866AC9165EE2B400D7BB3A /* Default-568h@2x.png in Resources */,
+				A136DCD71CE1E43F00E2A65D /* foodRoadPoint.plist in Resources */,
 				07866ACC165EE2B400D7BB3A /* MainStoryboard_iPhone.storyboard in Resources */,
 				A1EC57451CD8A49F001103D8 /* MagicMountain.plist in Resources */,
 				07866ACF165EE2B400D7BB3A /* MainStoryboard_iPad.storyboard in Resources */,
