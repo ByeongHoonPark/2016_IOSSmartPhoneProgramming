@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>다성일식</string>
+		<key>location</key>
+		<string>{37.5569016,126.9329799}</string>
+		<key>type</key>
+		<string>2</string>
+		<key>subtitle</key>
+		<string>서울시 서대문구 창천동 72-36</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>봉산집</string>
+		<key>location</key>
+		<string>{37.5344248, 126.9750082}</string>
+		<key>type</key>
+		<string>2</string>
+		<key>subtitle</key>
+		<string>서울시 용산구 용산동3가 1-21</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>창고43</string>
+		<key>location</key>
+		<string>{37.5189582, 126.9307458}</string>
+		<key>type</key>
+		<string>2</string>
+		<key>subtitle</key>
+		<string>서울시 영등포구 여의도동 44-37 아일렉스타워15층(스카이점)</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>돕감자탕</string>
+		<key>location</key>
+		<string>{37.5414326,127.0670782}</string>
+		<key>type</key>
+		<string>2</string>
+		<key>subtitle</key>
+		<string>서울시 광진구 화양동 9-22</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>대보명가</string>
+		<key>location</key>
+		<string>{37.6456727,127.0069939}</string>
+		<key>type</key>
+		<string>2</string>
+		<key>subtitle</key>
+		<string>서울시 강북구 수유동 563-14</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>해뜨는집</string>
+		<key>location</key>
+		<string>{37.590008,127.008347}</string>
+		<key>type</key>
+		<string>2</string>
+		<key>subtitle</key>
+		<string>서울시 성북구 동소문동 1가 62</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>아이 해브어 드림</string>
+		<key>location</key>
+		<string>{37.4993641,127.029242}</string>
+		<key>type</key>
+		<string>2</string>
+		<key>subtitle</key>
+		<string>서울시 강남구 역삼동 821 이즈타워 B3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>아현동 간장게장</string>
+		<key>location</key>
+		<string>{37.5550297,126.955608}</string>
+		<key>type</key>
+		<string>2</string>
+		<key>subtitle</key>
+		<string>서울시 마포구 아현동 282-1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>왕소금구이</string>
+		<key>location</key>
+		<string>{7.5204246,127.0354576}</string>
+		<key>type</key>
+		<string>2</string>
+		<key>subtitle</key>
+		<string>서울시 강남구 논현동 98-12</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>라틀리에 모니크</string>
+		<key>location</key>
+		<string>{37.505334,127.1056326}</string>
+		<key>type</key>
+		<string>2</string>
+		<key>subtitle</key>
+		<string>서울시 강남구 청담동 80-21</string>
+	</dict>
+</array>
+</plist>
